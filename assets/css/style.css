@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.titolo{
+height: 200px;
+width: 100%;
+background-color: brown;
+text-align: center;
+line-height: 200px;
+font-size: 40px;
+}
+  /* MAIN CONTENITORE GRANDE */
+main{
+  position: relative;
+  width: 30%;
+  height: 2000px;
+  background-color:violet;
+  margin-left: 35%;
+
+}
+  /* GENERALI PRIMA-RIGA  */
+.prima-riga .prima-carta, .seconda-carta, .terza-carta, .quarta-carta{
+  width: 20%;
+  height: 180px;
+  position: absolute;
+  top: 2%;
+  margin-bottom: 1%;
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+}
+
+.primo-prima-foto, .secondo-prima-foto, .terzo-prima-foto, .quarto-prima-foto{
+  width: 80%;
+  height: 140px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
+}
+
+
+  /* PRIMA-CARTA PRIMA-RIGA  */
+.prima-riga .prima-carta{
+  border: 1px solid black;
+  border-radius: 5%;
+  left: 10%;
+}
+/* SECONDA-CARTA PRIMA-RIGA */
+.prima-riga .seconda-carta{
+  background-color: beige;
+  left: 31%;
+}
+/* TERZA-CARTA PRIMA-RIGA */
+.prima-riga .terza-carta{
+  background-color: blueviolet;
+  left: 52%;
+}
+/* QUARTA-CARTA PRIMA-RIGA */
+.prima-riga .quarta-carta{
+  background-color: burlywood;
+  left: 73%;
+}
+
+ /* GENERALI SECONDA-RIGA  */
+  .seconda-riga .seconda-prima-carta, .seconda-seconda-carta, .seconda-terza-carta, .seconda-quarta-carta{
+    width: 20%;
+    height: 170px;
+    position: absolute;
+    top: 12%;
+    margin-bottom: 1%;
+  } 
+  .seconda-riga .seconda-prima-carta, .seconda-terza-carta, .seconda-quarta-carta{
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+  }
+
+  .seconda-riga .seconda-seconda-carta{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    
+  }
+
+    /* PRIMA-CARTA PRIMA-RIGA  */
+.seconda-riga .seconda-prima-carta{
+  background-color:white;
+  left: 10%;
+}
+/* SECONDA-CARTA PRIMA-RIGA */
+.seconda-riga .seconda-seconda-carta{
+  background-color: beige;
+  left: 31%;
+}
+/* TERZA-CARTA PRIMA-RIGA */
+.seconda-riga .seconda-terza-carta{
+  background-color: blueviolet;
+  left: 52%;
+}
+/* QUARTA-CARTA PRIMA-RIGA */
+.seconda-riga .seconda-quarta-carta{
+  background-color: burlywood;
+  left: 73%;
+}
+
+ /* GENERALI TERZA-RIGA  */
+ .terza-riga .terza-prima-carta, .terza-seconda-carta, .terza-terza-carta, .terza-quarta-carta{
+  width: 20%;
+  height: 170px;
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+  position: absolute;
+  top: 21%;
+  margin-bottom: 1%;
+} 
+
+  /* PRIMA-CARTA TERZA-RIGA  */
+.terza-riga .terza-prima-carta{
+background-color:white;
+left: 10%;
+}
+/* SECONDA-CARTA TERZA-RIGA */
+.terza-riga .terza-seconda-carta{
+background-color: beige;
+left: 31%;
+}
+/* TERZA-CARTA TERZA-RIGA */
+.terza-riga .terza-terza-carta{
+background-color: blueviolet;
+left: 52%;
+}
+/* QUARTA-CARTA TERZA-RIGA */
+.terza-riga .terza-quarta-carta{
+background-color: burlywood;
+left: 73%;
+}
