@@ -36,6 +36,8 @@ main{
   margin-bottom: 1%;
   background-image: url(../img/pattern.png);
   background-size: cover;
+  border: 1px solid black;
+  border-radius: 5%;
 }
 
 .primo-prima-foto, .secondo-prima-foto, .terzo-prima-foto, .quarto-prima-foto{
@@ -49,23 +51,18 @@ main{
 
   /* PRIMA-CARTA PRIMA-RIGA  */
 .prima-riga .prima-carta{
-  border: 1px solid black;
-  border-radius: 5%;
   left: 10%;
 }
 /* SECONDA-CARTA PRIMA-RIGA */
 .prima-riga .seconda-carta{
-  background-color: beige;
   left: 31%;
 }
 /* TERZA-CARTA PRIMA-RIGA */
 .prima-riga .terza-carta{
-  background-color: blueviolet;
   left: 52%;
 }
 /* QUARTA-CARTA PRIMA-RIGA */
 .prima-riga .quarta-carta{
-  background-color: burlywood;
   left: 73%;
 }
 
